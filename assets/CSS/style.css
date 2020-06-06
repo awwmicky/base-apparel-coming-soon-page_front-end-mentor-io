@@ -1,3 +1,22 @@
+/* main {} */
+/* .hero-header {} */
+/* .hero-header img {} */
+
+/* .hero-profile {} */
+/* .hero-img {} */
+
+/* .hero-info {} */
+.hero-caption {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.hero-caption .light-text { font-weight: 300; }
+.hero-caption .heavy-text { font-weight: 600; }
+/* .hero-desc {} */
+/* .hero-form {} */
+/* .hero-form input {} */
+/* .hero-form button {} */
+
 /*  */
 
 .footer-info {
@@ -5,7 +24,8 @@
     line-height: 1.5;
     text-align: center;
 
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
 
@@ -14,5 +34,5 @@
 
 
 .footer-info a { font-weight: 700; }
-.footer-info a:hover { color: var(--grayish-blue); }
+.footer-info a:hover { color: var(--dark-grayish-red); }
 .footer-info i { letter-spacing: 0.3em; }

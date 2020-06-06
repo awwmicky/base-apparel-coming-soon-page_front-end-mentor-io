@@ -4,6 +4,23 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+/* Primary */
+    --desaturated-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+/* Neutral */
+    --dark-grayish-red: hsl(0, 6%, 24%);
+/* Gradients */
+    --light-blend: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    --red-blend: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+/* Fonts */
+    --josefin-sans: "Josefin Sans", sans-serif;
+}
+
+
+
 *, *::before, *::after {
     margin: 0; padding: 0;
     box-sizing: border-box;
@@ -11,7 +28,7 @@
 
 html, body {
     width: 100%; height: 100%;
-    font: 1rem sans-serif;
+    font: 1rem var(--josefin-sans);
 }
 
 /*  */
@@ -121,4 +138,9 @@ noscript {
 900px-1200px (tablet landscape)
 600px-900px  (tablet portrait)
 0-600px      (phones)
+*/
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
 */
