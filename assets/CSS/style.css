@@ -10,9 +10,9 @@ section {
         "ftr"
     ;
     grid-template-rows: 80px 250px auto;
-    /* grid-template-rows: 80px minmax(250px, 400px) auto; */
     /* height: 100vh; */
 }
+/* grid-template-rows: 80px minmax(250px, 400px) auto; */
 
 .g-header   { grid-area: hdr;  }
 .g-img      { grid-area: img;  }
@@ -163,7 +163,7 @@ button.invalid-btn {
             "info img"
             "ftr  img"
         ;
-        grid-template-rows: 160px !important;
+        grid-template-rows: 160px auto auto !important;
         grid-template-columns: auto  minmax(0, 570px);
     }
 
