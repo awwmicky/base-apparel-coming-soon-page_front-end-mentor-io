@@ -22,11 +22,11 @@ section {
 /*  */
 
 .hero-header { display: flex; }
-.hero-header img {
-    width: 10rem;
+.hero-header a {
     margin: auto 0;
     padding-left: var(--p-sides);
 }
+.hero-header img { width: 10rem; }
 
 /*  */
 
@@ -148,13 +148,19 @@ button.invalid-btn {
 
 @media (min-width: 1190px) {
     section { --p-sides: 13vmax; }
+
+    .hero-profile img { 
+        object-fit: contain; 
+        object-position: initial;
+    }
 }
 
 @media (min-width: 760px) {
     section {
         background: 
             url("../images/other/bg-pattern-desktop.svg")
-            left no-repeat
+            left no-repeat,
+            var(--light-blend)
         ;
         background-size: 65% 100%;
         
@@ -164,7 +170,7 @@ button.invalid-btn {
             "ftr  img"
         ;
         grid-template-rows: 160px auto auto !important;
-        grid-template-columns: auto  minmax(0, 570px);
+        grid-template-columns: auto  minmax(0, 578px);
     }
 
     /*  */
