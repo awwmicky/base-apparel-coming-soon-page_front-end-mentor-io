@@ -10,6 +10,7 @@ section {
         "ftr"
     ;
     grid-template-rows: 80px 250px auto;
+    /* grid-template-rows: 80px minmax(250px, 400px) auto; */
     /* height: 100vh; */
 }
 
@@ -143,6 +144,8 @@ button.invalid-btn {
     font-weight: 300;
 }
 
+
+
 @media (min-width: 1190px) {
     section { --p-sides: 13vmax; }
 }
@@ -160,7 +163,7 @@ button.invalid-btn {
             "info img"
             "ftr  img"
         ;
-        grid-template-rows: 125px;
+        grid-template-rows: 160px !important;
         grid-template-columns: auto  minmax(0, 570px);
     }
 
@@ -174,7 +177,7 @@ button.invalid-btn {
     /*  */
 
     .hero-info {
-        padding: 5.25em 1.75em 1em var(--p-sides);
+        padding: 4.25em 1.75em 1em var(--p-sides);
     }
     .hero-caption { 
         font-size: 4rem;
