@@ -12,9 +12,20 @@
     --soft-red: hsl(0, 93%, 68%);
 /* Neutral */
     --dark-grayish-red: hsl(0, 6%, 24%);
+    --light-red: hsl(0, 80%, 86%);
+    --dark-red: hsl(0, 74%, 74%);
+    --off-red: hsl(0, 18%, 83%);
 /* Gradients */
-    --light-blend: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-    --red-blend: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    --light-blend: linear-gradient(
+        135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)
+    );
+    --red-blend: linear-gradient(
+        135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)
+    );
+    --highlight-blend: linear-gradient(
+        135deg, hsl(0, 100%, 98%), hsl(0, 80%, 86%)
+    );
+    /* 135deg, c1, c2 */
 /* Fonts */
     --josefin-sans: "Josefin Sans", sans-serif;
 }
@@ -34,7 +45,8 @@ html, body {
 /*  */
 
 body {
-    background:#eee;
+    /* background: var(--light-blend); */
+    /* background:#eee; */
     color: #333;
     line-height: 1;
     letter-spacing: .05em;
@@ -46,7 +58,7 @@ body {
     /* align-items: center; */
 }
 
-main{ flex: 1 1 auto; }
+section { flex: 1 1 auto; }
 
 .container-wrapper {
     max-width: 650px;

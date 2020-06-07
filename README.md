@@ -7,8 +7,10 @@ A challenge from Front-End Mentor:
 - apply any interactive features/components
 - use the given style guide to start the work-flow
 
-[Live Preview](https://awwmicky.github.io/base-apparel-coming-soon_front-end-mentor-io) | 
-[Front-End Mentor](https://www.frontendmentor.io/solutions/---)
+[**Live Preview**](https://awwmicky.github.io/base-apparel-coming-soon_front-end-mentor-io) | 
+[**Front-End Mentor**](https://www.frontendmentor.io/solutions/---)
+
+[more info →](./work/README.md)
 
 ## Built With
 
