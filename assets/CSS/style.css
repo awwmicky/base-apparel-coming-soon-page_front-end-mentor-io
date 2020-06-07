@@ -1,7 +1,7 @@
 /*  */
 section {
     --p-sides: 1.75em;
-    /* background: var(--light-blend); */
+    background: var(--light-blend);
     display: grid;
     grid-template-areas: 
         "hdr"
