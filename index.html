@@ -55,20 +55,25 @@
             Hello fellow shoppers! We're currently building our new fashion store. 
             Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
-        <form class="hero-form">
+        <form class="hero-form" name="hero_form">
             <div class="form-content">
                 <input 
-                    type="email"
+                    type="text"
                     name="email"
+                    id="email"
                     class="email-input f-inp"
                     placeholder="Email Address"
                     autocomplete="off"
                     autofocus
                 />
-                <span class="input-msg">
-                    |— Invalid Text
-                </span>
-                <button type="submit" class="submit-btn f-btn">
+                <label for="email" class="input-msg" hidden>
+                    |
+                </label>
+                <button 
+                    type="submit" 
+                    name="submit"
+                    class="submit-btn f-btn"
+                >
                     <img 
                         src="./assets/images/other/icon-arrow.svg" 
                         alt="submit"
@@ -102,7 +107,7 @@
     </footer>
 </section>
 <!-- JavaScript -->
-<!-- <script type="text/javascript" src="./assets/JS/app.js"></script> -->
+<script src="./assets/JS/app.js"></script>
 <noscript>Enable JS to Run App</noscript>
 </body>
 </html>

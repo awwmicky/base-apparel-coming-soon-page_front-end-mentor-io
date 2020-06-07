@@ -1,3 +1,4 @@
+/*  */
 section {
     --p-sides: 1.75em;
     /* background: var(--light-blend); */
@@ -97,7 +98,7 @@ section {
 }
 .hero-form input::placeholder { color: var(--off-red); }
 .hero-form .input-msg {
-    color: var(--soft-red);
+    /* color: var(--soft-red); */
     font-size: 0.75rem;
     position: absolute;
     /* top: -1.5em; */
@@ -121,13 +122,39 @@ section {
     box-shadow: 2px 2px 8px rgba(248, 191, 191, 0.25);
 }
 
+/*  */
+
+form .invalid-inp { border-color: var(--soft-red); }
+label.approved-msg { color: var(--desaturated-red); }
+label.invalid-msg { color: var(--soft-red); }
+button.approved-btn {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+button.loading-btn {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+}
+button.invalid-btn {  
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
 
 @media (min-width: 1190px) {
     section { --p-sides: 13vmax; }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 760px) {
     section {
+        background: 
+            url("../images/other/bg-pattern-desktop.svg")
+            left no-repeat
+        ;
+        background-size: 65% 100%;
+        
         grid-template-areas: 
             "hdr  img"
             "info img"
@@ -161,7 +188,9 @@ section {
     }
     .form-content { height: 55px; }
 }
-@media (min-width: 430px) {
+
+@media (min-width: 465px) {
+    section { grid-template-rows: 80px 400px auto; }
     .hero-info { --m-width: 425px; }
 }
 
@@ -186,5 +215,5 @@ footer { margin-top: auto; }
 
 
 .footer-info a { font-weight: 900; }
-.footer-info a:hover { color: var(--soft-red); }
+.footer-info a:hover { color: var(--dark-red); }
 .footer-info i { letter-spacing: 0.3em; }

@@ -1,25 +1,25 @@
-html { border: 2px solid black; }
-body { border: 2px solid silver; }
+/* html { border: 2px solid black; } */
+/* body { border: 2px solid silver; } */
 
-header { border: 2px solid gray; }
+/* header { border: 2px solid gray; } */
 /* main { border: 2px solid gray; } */
-footer { border: 2px solid gray; }
+/* footer { border: 2px solid gray; } */
 
 /* header > .container-wrapper { border: 2px solid black; } */
 /* main .container-wrapper { border: 2px solid lightgray; } */
 /* section > .container-wrapper { border: 2px solid lightgray; } */
 /* footer > .container-wrapper { border: 2px solid black; } */
-section { border: 2px solid gray; }
+/* section { border: 2px solid gray; } */
 
 /*  */
 
 /* .hero-header { border: 2px solid black; } */
 /* .hero-header img { border: 2px solid gray; } */
 
-.hero-profile { border: 2px solid black; }
+/* .hero-profile { border: 2px solid black; } */
 /* .hero-img { border: 2px solid gray; } */
 
-.hero-info { border: 2px solid black; }
+/* .hero-info { border: 2px solid black; } */
 /* .hero-caption { border: 2px solid gray; } */
 /* .hero-caption .light-text { border: 2px solid silver; } */
 /* .hero-caption .heavy-text { border: 2px solid silver; } */
