@@ -7,8 +7,8 @@ A challenge from Front-End Mentor:
 - apply any interactive features/components
 - use the given style guide to start the work-flow
 
-[**Live Preview**](https://awwmicky.github.io/base-apparel-coming-soon_front-end-mentor-io) | 
-[**Front-End Mentor**](https://www.frontendmentor.io/solutions/baseapparelcomingsoonpage-html-css-grid-flexbox-variables-js-IHhHt8Dgz)
+[**Direct Live Preview**](https://awwmicky.github.io/base-apparel-coming-soon_front-end-mentor-io) | 
+[**Solution Page Preview**](https://www.frontendmentor.io/solutions/baseapparelcomingsoonpage-html-css-grid-flexbox-variables-js-IHhHt8Dgz/preview)
 
 [more info →](./work/README.md)
 
@@ -22,8 +22,10 @@ HTML | CSS: Grid - Flexbox - Variables | JS
 
 <!-- 
 === SUBMISSION ===
-- title : [challenge-name] — HTML, CSS (Grid, Flexbox, Variables), JS
-- code  : https://github.com/awwmicky/base-apparel-coming-soon-page_front-end-mentor-io
-- demo  : https://awwmicky.github.io/base-apparel-coming-soon-page_front-end-mentor-io/
+- title     : [challenge-name] — HTML, CSS (Grid, Flexbox, Variables), JS
+- code link : https://github.com/awwmicky/base-apparel-coming-soon-page_front-end-mentor-io
+- demo link : https://awwmicky.github.io/base-apparel-coming-soon-page_front-end-mentor-io/
 - challenge : https://www.frontendmentor.io/solutions/baseapparelcomingsoonpage-html-css-grid-flexbox-variables-js-IHhHt8Dgz
+
+/preview
 -->

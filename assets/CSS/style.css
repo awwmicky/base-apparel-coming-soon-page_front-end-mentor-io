@@ -149,10 +149,10 @@ button.invalid-btn {
 @media (min-width: 1190px) {
     section { --p-sides: 13vmax; }
 
-    .hero-profile img { 
+    /* .hero-profile img { 
         object-fit: contain; 
         object-position: initial;
-    }
+    } */
 }
 
 @media (min-width: 760px) {

@@ -20,7 +20,7 @@ $form.addEventListener('submit', (e) => {
     const setApproved = (email, msg) => {
         let form = email.parentElement;
         form.classList.remove('invalid-inp')
-        form.reset()
+        form.parentElement.reset()
 
         let inpMsg = email.nextElementSibling;
         inpMsg.classList.add('approved-msg')
